@@ -1,3 +1,6 @@
+
+<style type ="text/css">
+        body {color: white; font-family: Georgia, Times; padding-left:2em; background-color: blue}</style>
 <?php
 // Otros scripts
 include("conexion.php");

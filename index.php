@@ -11,18 +11,27 @@
     <body>
         <?php
             // Escribe hola mundo en la pagina
-            echo "Hola Mundo";
         //?>        
         
-        <form action="insertar.php" method="post" name="FrmIngreso">
-            <p>Nombre <input type="text" name="nombre" /></p>
-            <p>Apellido <input type="text" name="apellido" /><p>
-         A:   <input type="submit" value="Insertar Datos" />
+        <p> Sistema de ingreso para productos </p>
+        <form action="insertar.php" method="" name="FrmIngreso">
+            <p>Id:</p>
+            <input type="text" name="id" />
+            <p>Descripción</p>
+            <input type="text" name="desc" /><br>
+         A:   <input type="submit" value="Agregar Datos" />
         </form>
         
-        <form action="consultar.php" method="post" name="FrmConsultar">
-         B:   <input type="submit" value="Consultar Datos" />
-        </form>    
+        <br>
+        <form action="borrar.php" method="post" name="FrmBorrar">
+         B:   <input type="text" name="dat" /><br>
+         <input type="submit" value="Borrar Datos" />
+        </form>
+        
+        <br>
+          <form action="consultar.php" method="post" name="FrmConsultar">
+         C:   <input type="submit" value="Consultar Datos" />
+        </form>
       
     </body>
     <br/>

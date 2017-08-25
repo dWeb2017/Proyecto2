@@ -14,10 +14,10 @@
         //?>        
         
         <p> Sistema de ingreso para productos </p>
-        <form action="insertar.php" method="" name="FrmIngreso">
-            <p>Id:</p>
+        <form action="insertar.php" method="post" name="FrmIngreso">
+            <p>Ingrese un id:</p>
             <input type="text" name="id" />
-            <p>Descripción</p>
+            <p>Ingrese una descripción</p>
             <input type="text" name="desc" /><br>
          A:   <input type="submit" value="Agregar Datos" />
         </form>

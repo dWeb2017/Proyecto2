@@ -1,6 +1,7 @@
 <?php
 // Otros scripts
 include("conexion.php");
+include("estilo1.css");
 // Conecto a la base de datos
 $con = mysqli_connect($host,$user,$pw) or die ("problemas al conectar");
 mysqli_select_db($con,$db) or die ("problema al conectar a la base de datos");

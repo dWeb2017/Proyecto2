@@ -1,10 +1,19 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 22/08/2017, 03:48:40 PM
-    Author     : Labtronic
-*/
+body {
+        color: white; 
+        font-family: Georgia, Times; padding-left:2em; 
+        background-color:darkblue
+ }
+ 
+footer {
+        color: blue; 
+        text-align:center; 
+        font-family: Georgia, Times; 
+        padding-left:1em; 
+        background-color: gray;
+}
 
+#container{
+    padding: 10 10 10 10;
+    background: #fff;
+    
+}
